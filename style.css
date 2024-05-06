@@ -4,6 +4,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    font-size: 18px; /* Redéfinition de la taille de police de l'élément racine */
+  }
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -77,6 +81,40 @@ a {
     width: 65%;
 }
 
+.hebergements-cards img{
+    width:100%;
+    height:130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.hebergements-cards a{
+    width: 30%;
+    min-width: 120px;
+    background-color: #ffffff;
+    padding: 0,5px;
+    margin-top: 33px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #dadada;
+}
+
+.hebergements-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px;
+    flex-wrap: wrap;
+
+}
+.afficher-plus{
+margin-top: 1.5rem;
+}
+
+.class-afficherplus{
+    font-weight: bold;
+    font-size: 0.9rem;
+
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -122,6 +160,45 @@ a {
     margin-bottom: 5px;
 }
 
+
+header{
+    width:100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin:0%;
+    padding: 0%;
+}
+.logo{
+    width: 90px;
+    height: auto;
+    margin-left: -150px;
+    padding: 15px;
+    }
+    
+    * {
+    margin: 0;
+    }
+    
+    nav a {
+    margin-left: 40px;
+    }
+    
+    .navigation{
+    margin-left:130px;
+    display: flex;
+    justify-content: flex;
+    }
+
+    nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
 
 
 
