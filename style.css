@@ -121,6 +121,57 @@ margin-right: 0%;
     display: flex;
 }
 
+.btn-filtres{
+    display: flex;
+    justify-content: space-between;
+    width:49%;
+}
+.btn-filtres{
+    font-weight:bold;
+    margin-bottom: 15px;
+}
+
+.texte-filtres{
+    margin-top: -8px;
+    margin-right: 5px;
+
+}
+.fa-info{
+    display: block;
+    border: solid #F2F2F2;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 4px;
+    margin-top: -5px;
+    margin-left: -9px;
+    width: 5px;
+    height: 4px;
+    font-size: 75%;
+    overflow: hidden; /* Empêche le contenu de dépasser les limites du bloc */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    width: 34%;
+    height: 34%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.btn-f{
+    width: 260px;
+    font-weight: bold;
+    padding: 14px;
+    margin-top:-20px;
+    margin-left: 7px;
+    border-radius: 30px;
+    background-color:white;
+    border: 2px solid #F2F2F2 ;
+
+}
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -273,8 +324,47 @@ body{
     justify-content: space-between;
     }
     
+    /********** Activites Marseille ***************/
+
+.activites-cards a{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.title-activites-marseille{
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+.activites-marseille{
+    width: 100%;
+}
+
+.activites-cards a {
+    width: 100%;
+    margin-left:5px;
+    padding: 5px;
+}
+
+.activites-cards img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 290px;
+    height: 450px;
+}
 
 
+.activites-cards{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: row;
+}
+
+.card-txt{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
