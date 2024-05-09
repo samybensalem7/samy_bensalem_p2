@@ -131,6 +131,10 @@ margin-right: 0%;
     margin-bottom: 15px;
 }
 
+.btn-f:hover{
+    background-color:#DEEBFF;
+
+}
 .texte-filtres{
     margin-top: -8px;
     margin-right: 5px;
