@@ -366,6 +366,30 @@ body{
     margin-bottom: 15px;
 }
 
+/*********Footer************/
+footer{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background-color: #F2F2F2;
+}
+ol{
+    list-style-type: none;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+}
+
+li{
+    margin-left:-45px;
+    padding-top: 9px;
+}
+
+h4{
+    margin-top: 10px;
+    margin-left:-3px;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
