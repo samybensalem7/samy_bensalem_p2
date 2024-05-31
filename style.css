@@ -111,10 +111,7 @@ nav a:hover {
 
 .mobile-buttons {
     display: flex;
-}
-
-button.filter-button {
-    width: 70%;
+    width: 69%;
 }
 
 .fa-location-dot::before {
@@ -177,6 +174,7 @@ button.filter-button {
 .filter-button {
     width: 23%;
     font-weight: bold;
+    margin-left: 1%;
     padding: 14px;
     margin-top: -20px;
     border-radius: 30px;
@@ -431,6 +429,22 @@ h4 {
         width: 100%;
     }
 
+    .filters-button{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .filters-text p{
+        margin-bottom: 5%;
+    }
+
+    .text-block p{
+        margin-top: 2%;
+    }
+
+    .mobile-buttons{
+        width: 95%;
+    }
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -443,12 +457,35 @@ h4 {
         /*** background-color: #0065FC; ***/
     }
 
+    .populaires-cards .card-rating {
+        font-size: 1vw;
+    }
+
+    .populaires-cards .card-title{
+        margin-top: 0;
+    }
+
+    .hebergements-cards img{
+        height: 12vw;
+    }
+
+    .activites-card-txt h3.card-title{
+        font-size: 1.7vw;
+        height: 2vw;
+    }
+
+    .information{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
     .populaires-cards a {
         width: 30%;
     }
 
     .fa-solid {
         font-size: 20px;
+        text-align: center;
     }
 
     .fa-star {
@@ -473,12 +510,12 @@ h4 {
     }
 
     .activites-marseille a {
-        height: 300px;
+        height: 30vw;
     }
 
     .activites-marseille a img {
         aspect-ratio: 1/1;
-        height: 220px;
+        height: 20vw;
     }
 
     h3.card-title {
@@ -538,12 +575,12 @@ h4 {
         justify-content: center;
     }
 
-    .research-form{
+    .research-form {
         width: 86%;
     }
 
     input.search {
-       /** width: 400px;**/
+        /** width: 400px;**/
         height: 60PX;
         width: 93%;
     }
@@ -563,23 +600,26 @@ h4 {
         font-size: 30px;
     }
 
+    .text-block p {
+        padding-left: 15px;
+    }
+
     nav {
-        display: flex;
-        justify-content: space-between;
+        margin-left: 0%;
         margin-bottom: 0;
-       /** margin: auto;**/
-        margin-bottom: 35px;
-        font-size: 31px;
-        /**margin-right: 45px;**/
-        margin-left: 0;
-        width: 100%;
+        font-size: 6vw;
         border-bottom: solid 3px #F2F2F2;
         padding-bottom: 10px;
+        padding-left: 7%;
+        gap: 15vw;
+        margin-bottom: 8%;
     }
 
     nav a {
         width: 50%;
         margin-left: 0px;
+        display: flex;
+        border-bottom: 3px solid #0065FC;
     }
 
     nav a:hover {
@@ -604,34 +644,38 @@ h4 {
         margin-left: 9px;
     }
 
-    p{
-        padding-left: 15px;
+    .filters-text p{
+        padding-left: 1%;
     }
 
     .fa-info {
         margin-right: 10px;
         margin-top: 2px;
-        margin-left: -9px;
+        margin-left: 1%;
         width: 17px;
         height: 13px;
     }
 
     div.mobile-buttons {
         display: flex;
+        justify-content: center;
         width: 100%;
         height: auto;
         margin-bottom: 25px;
+        flex-wrap: wrap;
     }
 
     button.filter-button {
-        width: 50%;
+        width: 46%;
+        margin: 1%;
     }
 
 
     h2 {
-        font-size: 35px;
+        font-size: 6vw;
         margin-bottom: 10px;
         padding-left: 15px;
+        padding-right: 1.5vw;
     }
 
     span.text-a {
@@ -666,7 +710,7 @@ h4 {
 
 
     .populaires-cards .card-title {
-        font-size: 30px;
+        font-size: 5vw;
     }
 
     .populaires-cards .card-subtitle {
@@ -745,12 +789,28 @@ h4 {
         width: 98%;
         margin-left: 1%;
         margin-right: 1%;
+        margin-bottom: 2%;
 
     }
 
     .activites-cards a .card img {
         height: 30%;
 
+    }
+
+
+    .activites-marseille a img {
+        aspect-ratio: 1 / 1;
+        height: 42vw;
+    }
+
+
+    .activites-card-txt h3.card-title {
+        font-size: 3.7vw;
+    }
+
+    .activites-marseille a {
+        height: 56vw;
     }
 
 
